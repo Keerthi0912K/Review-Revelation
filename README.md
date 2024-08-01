@@ -31,19 +31,31 @@ I visualize the distribution of sentiment scores to identify overall trends and 
 I analyze sentiment trends over time to identify any fluctuations or seasonal patterns.
 
 
-## Example Output
+## Example Output ![image](https://github.com/user-attachments/assets/bb7664c4-65bf-470a-a573-3fc16cc4fc94)
+
 
 ### Word Clouds
 - The word clouds reveal frequently mentioned words in positive and negative reviews. For instance, in positive reviews, terms like "nicely," "elegant," "loved," "well," and "helpful" stand out. At the same time, the word "dirty" is prominent in negative reviews.
 
+![image](https://github.com/user-attachments/assets/25deca08-7178-430f-9d63-2ad174868c63)
+
+![image](https://github.com/user-attachments/assets/61fb1277-54ff-432a-99f0-909dce4113e6)
+
 ### Sentiment Distribution
 The sentiment distribution analysis shows that most reviews are clustered around a neutral to slightly positive sentiment score, with a few reviews expressing extreme sentiments.
+
+![image](https://github.com/user-attachments/assets/a6b7587e-99d3-49d5-b640-2cba213598d5)
 
 ### Sentiment Over Time
 The sentiment analysis over time reveals fluctuations, with noticeable dips in March 2019 and peaks in December 2018, suggesting that specific periods may influence customer experiences.
 
+![image](https://github.com/user-attachments/assets/5bbb1bda-d152-4873-9159-6c8ad9d5fcd8)
+
 ### Impact of Location
 Locations such as Ireland, Fairfax Station, VA, and Mexico have high average sentiment scores, indicating positive guest experiences. In contrast, places like China, Modesto, CA, and Pikeville, KY, have lower sentiment scores, highlighting areas needing improvement.
+
+![image](https://github.com/user-attachments/assets/7d1e1a88-2e49-412b-96e4-10bcf782a08c)
+
 
 ## Insights and Implications
 
