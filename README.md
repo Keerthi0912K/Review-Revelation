@@ -1,9 +1,21 @@
-# Review Revelation
+# Review Revelation 🏨
+### NLP Sentiment Analysis · Hotel Review Intelligence
 **Review Revelation** is a sentiment analysis project designed to uncover insights from hotel reviews. The primary goal is to analyze these reviews to gain a deeper understanding of customer experiences, helping hotel management identify their strengths and areas for improvement.
 
+## Results at a glance
+ 
+| Metric | Finding |
+|---|---|
+| Reviews analysed | 225K+ hotel reviews |
+| Sentiment accuracy | Positive / Negative / Neutral classification |
+| Key negative driver | "Dirty" — cleanliness is the #1 complaint |
+| Seasonal insight | Sentiment dips in March 2019, peaks in December 2018 |
+| Location insight | Ireland, Fairfax Station VA score highest; China, Modesto CA lowest |
+ 
+---
 
 ## Project Overview
-In this project, I analyze hotel reviews using sentiment analysis techniques. By examining the sentiment expressed in the reviews, I aim to provide actionable insights to help hotel management enhance their services and facilities. The project focuses on identifying positive and negative aspects of the hotel experience and understanding how customer sentiment evolves over time.
+In this project, I analyze hotel reviews using sentiment analysis techniques. By examining the sentiment expressed in the reviews, I aim to provide actionable insights to help hotel management enhance their services and facilities. The project focuses on identifying positive and negative aspects of the hotel experience and understanding how customer sentiment evolves.
 
 
 ## Features
@@ -84,3 +96,44 @@ Locations such as Ireland, Fairfax Station, VA, and Mexico have high average sen
 
 
 By focusing on these actionable steps, the hotel can enhance the guest experience and increase positive feedback in future reviews.
+
+
+---
+ 
+## Tech Stack
+ 
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![NLTK](https://img.shields.io/badge/NLTK-3776AB?style=flat)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat)
+![WordCloud](https://img.shields.io/badge/WordCloud-orange?style=flat)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+ 
+---
+ 
+## How to run
+ 
+```bash
+git clone https://github.com/Keerthi0912K/Review-Revelation.git
+cd Review-Revelation
+pip install pandas nltk matplotlib wordcloud textblob
+jupyter notebook Hotel_Review_Insights.ipynb
+```
+ 
+**Data:** Two input files included — `Data Analyst - Test Data.xlsx` and `Data Analyst - Test Data - US.csv`
+ 
+---
+ 
+## Project structure
+ 
+```
+Review-Revelation/
+├── Hotel_Review_Insights.ipynb   # Main analysis notebook
+├── Data Analyst - Test Data.xlsx # Primary dataset
+├── Data Analyst - Test Data - US.csv # US subset
+└── README.md
+```
+ 
+---
+ 
+*Built by [Keerthi K](https://github.com/Keerthi0912K) · Part of a data analytics portfolio spanning security, ML, and business intelligence*
